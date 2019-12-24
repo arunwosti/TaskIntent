@@ -14,13 +14,13 @@ import android.widget.Toast;
 import com.example.taskintent.data.Task;
 import com.example.taskintent.data.TaskRepository;
 
-public class MainActivity extends AppCompatActivity {
+public class TaskActivity extends AppCompatActivity {
 
     private Task mTask = new Task(0, "title", "description", "status");
     private final TaskRepository sTaskRepository = TaskRepository.getInstance();
 
     private static final String TASK_ID = "com.example.taskintent";
-    private static final String LOG_TAG = MainActivity.class.getSimpleName();
+    private static final String LOG_TAG = TaskActivity.class.getSimpleName();
 
     /** In case of state change, such as rotating the phone
      * store the taskId to display the same task element after the state change

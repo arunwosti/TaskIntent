@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Task Intent</string>
+    <string name="taskTitle">title</string>
+    <string name="taskDescription">description</string>
+    <string name="status">status</string>
+    <string name="next">next</string>
 </resources>
+

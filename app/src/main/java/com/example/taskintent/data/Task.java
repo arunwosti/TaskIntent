@@ -1,4 +1,4 @@
-package com.example.taskactivity.data;
+package com.example.taskintent.data;
 
 public class Task {
 
