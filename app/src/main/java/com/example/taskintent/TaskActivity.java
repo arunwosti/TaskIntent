@@ -40,7 +40,7 @@ public class TaskActivity extends AppCompatActivity {
         Log.d( LOG_TAG, "onCreate ... ");
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_task);
 
         /* check for saved state due to changes such as rotation or back button
            and restore any saved state such as the taskId and retrieve the corresponding task */
